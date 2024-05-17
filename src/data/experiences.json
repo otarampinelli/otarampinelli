@@ -1,0 +1,52 @@
+{
+  "experiences": [
+    {
+      "title": "Software Developer",
+      "company": "BairesDev",
+      "period": "02/2024 - Now",
+      "description": "Go backend migration to NestJs + Shopify API to integrate all order, product and payment services with Shopify."
+    },
+    {
+      "title": "Software Developer",
+      "company": "Mimo Live Sales",
+      "period": "01/2023 - 01/2024",
+      "description": "I participated in the analysis and development of a live commerce, I participated in both front-end and back-end development using the best possible solutions to work with live video transmission. I worked using React + Typescript, Node, NestJs, MySQL, PHP, Tailwind"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Taller",
+      "period": "09/2021 - 11/2023",
+      "description": "I participated in analysis and development mainly in CMS projects for large news portals and e-commerce using resilient and scalable architectures. I worked mainly using React + Typescript, Next, GraphQL, Ruby on Rails and Postgres."
+    },
+    {
+      "title": "Front-end Developer",
+      "company": "Visionnaire",
+      "period": "04/2021 - 09/2021",
+      "description": "I was responsible for the front-end development of a fleet management project, I was responsible for deciding on the entire structure that would be used in the front-end. In this project I used Vue (V3.*), Vuex, BootstrapVue, Jest and Docker."
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Engeplus Empresas",
+      "period": "02/2020 - 04/2021",
+      "description": "I worked on the development and support of internal systems used by all sectors of the company and also on the development of the company's news portal using PHP (v5.6. *, V7.0. * With Slim, Twig and Eloquent), VueJS, Angular, SQL Server database."
+    },
+    {
+      "title": "Front-end Developer",
+      "company": "Aethos Sistemas",
+      "period": "07/2019 - 02/2020",
+      "description": "I was responsible for the front-end development of an inventory management system, I worked using React, SASS and consuming GraphQL apis"
+    },
+    {
+      "title": "Front-end Developer",
+      "company": "Freelancer",
+      "period": "09/2017 - 07/2019",
+      "description": "Website development for several clients using React, Styled Components and Redux"
+    },
+    {
+      "title": "Front-end Developer",
+      "company": "Thomson Reuters",
+      "period": "02/2017 - 08/2017",
+      "description": "Development in the Onvio system, a system to group data between customers and accounting, I worked focusing on the front end using Angular"
+    }
+  ]
+}
