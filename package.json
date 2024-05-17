@@ -1,6 +1,6 @@
 {
-  "homepage": "https://otarampinelli.github.io/personal",
-  "name": "my-page",
+  "homepage": "https://otarampinelli.github.io/personal/",
+  "name": "personal",
   "private": true,
   "version": "0.0.0",
   "type": "module",
