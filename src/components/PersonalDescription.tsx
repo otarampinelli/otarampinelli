@@ -8,7 +8,8 @@ const PersonalDescription = () => {
     <Content>
       <>
         <ImageStyle>
-          <Image src="/images/city.jpg" alt="" />
+          <Image src="/images/city.jpg" alt="View from my balcony" />
+          <span>view from my balcony</span>
         </ImageStyle>
         <InfosStyle>
           <h1>About Me!</h1>
@@ -39,6 +40,7 @@ const InfosStyle = styled.div`
 
 const ImageStyle = styled.div`
   padding: 10px;
+  text-align: center;
 `;
 
 const Image = styled.img`
