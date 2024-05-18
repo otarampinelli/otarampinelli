@@ -3,20 +3,20 @@ import styled from "styled-components";
 
 const Header = () => {
   return (
-    <NavStyle>
-      <LinkStyle to="/">
-        <TitleStyle>Otavio Rampinelli</TitleStyle>
-      </LinkStyle>
+    <StyledNav>
+      <StyledLink to="/">
+        <StyledTitle>Otavio Rampinelli</StyledTitle>
+      </StyledLink>
       <ul>
-        <ListItemStyle>
-          <LinkStyle to="/experiences">Experiences</LinkStyle>
-        </ListItemStyle>
+        <StyledListItem>
+          <StyledLink to="/experiences">Experiences</StyledLink>
+        </StyledListItem>
       </ul>
-    </NavStyle>
+    </StyledNav>
   );
 };
 
-const NavStyle = styled.nav`
+const StyledNav = styled.nav`
   background: #383838;
   height: 50px;
   display: flex;
@@ -25,17 +25,17 @@ const NavStyle = styled.nav`
   padding: 0 20px;
 `;
 
-const TitleStyle = styled.h1`
+const StyledTitle = styled.h1`
   &:hover {
     color: #c9c9c9;
   }
 `;
 
-const ListItemStyle = styled.li`
+const StyledListItem = styled.li`
   list-style: none;
 `;
 
-const LinkStyle = styled(Link)`
+const StyledLink = styled(Link)`
   text-decoration: none;
   color: white;
   &:hover {

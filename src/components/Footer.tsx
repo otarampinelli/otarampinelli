@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 const Footer = () => {
   return (
-    <FooterStyle>
+    <StyledFooter>
       <p>@otarampinelli</p>
-    </FooterStyle>
+    </StyledFooter>
   );
 };
 
-const FooterStyle = styled.footer`
+const StyledFooter = styled.footer`
   background: #2c2c2c;
   padding: 10px;
   position: fixed;

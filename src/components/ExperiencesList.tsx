@@ -1,4 +1,4 @@
-import Content from "./Content";
+import Wrapper from "./Wrapper";
 import experiencesList from "../data/experiences.json";
 import Experience from "./Experience";
 import styled from "styled-components";
@@ -6,18 +6,18 @@ import styled from "styled-components";
 const ExperiencesList = () => {
   const { experiences } = experiencesList;
   return (
-    <Content>
-      <ExperiencesListStyle>
+    <Wrapper>
+      <StyledExperiences>
         {experiences &&
           experiences.map((experience) => {
             return <Experience experience={experience} />;
           })}
-      </ExperiencesListStyle>
-    </Content>
+      </StyledExperiences>
+    </Wrapper>
   );
 };
 
-const ExperiencesListStyle = styled.div`
+const StyledExperiences = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;

@@ -3,16 +3,16 @@ import { ExperienceType } from "../types/experience";
 
 const Experience = ({ experience }: ExperienceType) => {
   return (
-    <ExperienceStyle>
-      <TitleStyle>{experience.title}</TitleStyle>
+    <StyledExperience>
+      <StyledTitle>{experience.title}</StyledTitle>
       <h3>{experience.company}</h3>
       <div>{experience.period}</div>
       <div>{experience.description}</div>
-    </ExperienceStyle>
+    </StyledExperience>
   );
 };
 
-const ExperienceStyle = styled.div`
+const StyledExperience = styled.div`
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -21,7 +21,7 @@ const ExperienceStyle = styled.div`
   border-image: linear-gradient(rgb(77, 171, 247), rgb(6, 129, 230)) 30;
 `;
 
-const TitleStyle = styled.h1`
+const StyledTitle = styled.h1`
   color: rgb(77, 171, 247);
 `;
 

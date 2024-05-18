@@ -1,17 +1,17 @@
 import styled from "styled-components";
 import infos from "../data/infos.json";
 import { Link } from "react-router-dom";
-import Content from "./Content";
+import Wrapper from "./Wrapper";
 
 const PersonalDescription = () => {
   return (
-    <Content>
+    <Wrapper>
       <>
-        <ImageStyle>
-          <Image src="/images/city.jpg" alt="View from my balcony" />
+        <StyledImageContainer>
+          <StyledImage src="/images/city.jpg" alt="View from my balcony" />
           <span>view from my balcony</span>
-        </ImageStyle>
-        <InfosStyle>
+        </StyledImageContainer>
+        <StyledInfos>
           <h1>About Me!</h1>
           <div>{infos.title}</div>
           <div>
@@ -26,24 +26,24 @@ const PersonalDescription = () => {
               return <li>{info}</li>;
             })}
           </ul>
-        </InfosStyle>
+        </StyledInfos>
       </>
-    </Content>
+    </Wrapper>
   );
 };
 
-const InfosStyle = styled.div`
+const StyledInfos = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
 `;
 
-const ImageStyle = styled.div`
+const StyledImageContainer = styled.div`
   padding: 10px;
   text-align: center;
 `;
 
-const Image = styled.img`
+const StyledImage = styled.img`
   width: 100%;
 `;
 
